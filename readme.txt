@@ -1,0 +1,1 @@
+You can set the time to lock the computer, and when you lock screen the beautiful pictures can be seen.
