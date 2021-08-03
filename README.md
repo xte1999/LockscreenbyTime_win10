@@ -12,3 +12,8 @@ which means the unlock time is 2021/8/2/9:20
 
 ## 界面效果
 ![view1](https://user-images.githubusercontent.com/50430387/127969048-99a11408-e3ce-4ce6-a167-756e8e2bc2f3.jpg)
+
+## 打包程序+开机启动
+1.使用pyinsatller打包程序为exe格式
+2.在注册表“计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon”的Userinit项中添加打包程序位置 这样开机就会运行程序 **要注意小心操作**
+3.重新启动电脑，点击屏幕后开始判断，如未到解锁时间，则先显示结束时间后每12s换一次壁纸。
